@@ -20,6 +20,7 @@ LORA( Lower rank adatpion):
 We know LLM are pretrained on vast amount of internet data and we have to further fine tune for our down stream tasks.
 
 Let's consider we need fine-tuned the complete 7B model for down stream like positive/negative it can only responded as postive or negative which leads the inabaility for model to handle others which is called catostrophic forgetting .
+
 ![img_1.png](img_1.png)
 
 ![img.png](img.png)
@@ -99,7 +100,10 @@ Trained for 1 epochs able to achieve 1.6 loss
          Model generated response : 
          {'generated_text': 'I’m sorry, but it is not possible for me to make phone calls on your behalf.'}
 
-Complete trainining and inference scrtips are available in the notebook
+
+Complete training and inference can be found in notebook 
+
+****End of notes ********
          
     
 
